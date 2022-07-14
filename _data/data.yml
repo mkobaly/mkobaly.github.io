@@ -1,0 +1,280 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Michael Kobaly
+    tagline: VP Software Engineering
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: mkobaly@gmail.com
+    phone:
+    linkedin: michael-kobaly
+    github: mkobaly
+    twitter: '@MichaelKobaly'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #pdf: assets/resume.pdf
+
+    certifications:
+      - item: MCDBA
+      - item: MCSE
+      - item: MCP
+
+    interests:
+      - item: Computers
+        link:
+      - item: Soccer
+        link:
+      - item: Cross Fit
+        link:
+      - item: Skiing
+        link:
+      - item: Ultimate Frisbee
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Innovative, hands-on technology leader who thrives in a challenging, fast-paced environment with a goal of shaping the direction
+      of the company all while providing a positive and inspiring atmosphere for the staff around me. Proficient in managing disparate
+      teams across the globe with an expert understanding of the entire software development lifecycle. A true problem solver,
+      I challenge teams to reach their full potential.
+education:
+    - degree: BS in Mechanical Engineering
+      university: University of New Hampshire
+      time: 1994 - 1998
+
+experiences:
+    - role: Vice President Software Engineering
+      time: 2016 - Present
+      company: AMAG an Allied Universal Company
+      details: |
+        AMAG an Allied Universal company, is a leading security and facility services company that provides proactive security services and
+        cutting-edge smart technology to deliver tailored, integrated security solutions.
+
+        Managing the development of Identity Management suite of applications consisting of CONNECT and GUEST. The applications utilize a .NET
+        Core backend with a React frontend. These containerized applications are designed to run in the cloud or on-premise at a customer’s
+        site orchestrated via Docker Swarm. I implemented the architectural solution along with the backend technologies used to ensure
+        scalability, resilience, observability, and security of the product. Very much a technology minded leader I empower my
+        managers and their staff to continually innovate and create solutions that improve the efficiencies of our customers.
+
+
+          -	Manage a fully remote team of 20+ software engineers in the US and in Romania.
+          -	Oversee a small team of DevOps engineers responsible for automating hardware provisioning and application deployments using Ansible and Terraform.
+          -	Coach and mentor engineering managers to empower staff to become self-sufficient and true problem solvers.
+          -	Work closely with the Product team to ensure specs are fully understood and conform to our applications architecture and security checks.
+          -	Implement static code analysis into the development pipeline using SonarQube.
+          -	Create and oversee engineering best practices.
+          -	Manage all aspects of outsourced development resources and contract negotiations.
+          -	Implement automated builds, deployments and integration tests using Slack bots to greatly improved the teams’ efficiencies.
+          -	Drastically streamlined the onboarding process for new hires where a full development environment is setup in under 2 hours.
+          -	Implement a shift left security mindset to ensure our products are protected from vulnerabilities and comply with open-source license requirements.
+          -	Help manage and address key Fortune 500 client issues to ensure expedited results and customer satisfaction.
+          -	Part of the Sr. leadership team driving innovation for AMAG.
+          -	Work closely with Customer Support to ensure issues are well understood and documented to improve delivery lead time.
+          - Manage the Engineering budget to ensure there is no overspend.
+
+
+    - role: Founder and CTO
+      time: 2006 - Present
+      company: ScriptWire
+      details: |
+        ScriptWire a SaaS based solution, helps Medical Transcription and Coding organizations streamline, automate and optimize complex timesheet
+        and payroll processes.
+
+        Founder, CTO and lead developer for ScriptWire, I am involved in all aspects of the business ranging from sales down to customer
+        support issues. Being a startup, the product pivoted very quicky to address the needs of the customers. I managed the process of
+        gathering customer requirements and translating those into specifications that allowed the development team to create a scalable
+        solution that provides measurable time savings for our customers, many that are still with us from 2006.
+
+
+          -	Architect and lead developer of the entire application suite.
+          -	Worked with Sales, performing demos as needed and finalizing contract negotiations.
+          -	Manage outsourced developers to ensure development done on time and to specification.
+          -	Oversee customer support as needed to ensure customer satisfaction.
+
+
+    - role: Vice President of Software Engineering
+      time: 2013 - 2016
+      company: G4S Technology Software Solutions
+      details: |
+        One of the largest employers in the world and a leader in the security field, G4S provides a wide array of security solutions from
+        physical security to software solutions.
+
+        Responsible for the rewrite of OneFacility, a web-based product that provides a suite of applications including Incident Management,
+        Card Access Control and Emergency Action Plans. As a member of the executive management team, one of my primary objectives was
+        changing the culture of the organization with a focus on a more distributed scalable architecture, faster release process and a
+        more a stable and testable code base.  This included ensuring we hit our deliverable dates while keeping engineering engaged
+        and on track to meet deadlines. I was able to transition the team from one that was floundering to one that was successful
+        and engaged with an appetite to innovate and learn.
+
+
+          -	Actively collaborated with all departments including product owners to help shape the business direction and define the product roadmap.
+          -	Member of commercial review that managed and tracked productivity and deliverables on a weekly basis while reviewing all incoming client request.
+          -	Manage the datacenter team responsible for the OneFacility infrastructure.
+          -	Acted as key participant in managing client relations with key Fortune 500 clients.
+          -	Helped facilitate ISO 9001 certification based on Scrum methodologies.
+          -	Managed the Engineering budget to ensure there is no overspend.
+          -	Engaged and challenged the engineering team to evolve and improve our culture by utilizing Scrum with a goal to obtain continuous deployments with zero downtime.
+          -	Restructured entire code base and changed the way we developed on a daily basis.
+          -	Optimized our release process. Prior our releases were manual happening at most once a month. Now we can release daily if desired.
+          -	Simplified our build process using a build pipeline that allows every engineer to troubleshoot build issues locally vs relying on a release engineer.
+          -	Implemented the use of TeamCity to handle our CI and release builds.
+          -	Utilized Octopus deploy to automate the deployment process with zero downtime.
+          -	Ensured the deployment of SQL scripts were automated and part of our release process.
+          -	Implemented a messaging infrastructure using RabbitMQ and Masstransit to distribute our work load and allow our modules to easily communicate with each other via messaging.
+          -	Improved our search capabilities using Elastic search.
+          -	Created a centralized scheduler using Quartz.net.
+          -	Converted our source control over to Git from TFS to simplify the branch and merging process.
+
+
+    - role: Principle Software Engineer / Manager
+      time: 2006 - 2013
+      company: Touchcom
+      details: |
+        A security company Touchcom was a fast-growing business that grew from 5 engineers to 25 in less than 18 months. As engineering manager,
+        I was responsible for the 25 engineers developing a “building management product” suite called OneFacility. This SaaS offering provided
+        enterprise clients the ability to manage their employee’s access to secured facilities across the globe.
+
+          -	Architected the development of the “Delta Process” that is responsible for near real time replication of data to remote facilities. This provides the ability to run OneFacility applications in a disconnected mode.
+          -	Lead Engineer in the development of the Card Access Control (CAC) Asp.net MVC web application. This application allows clients to centrally manage their employees’ access to secure buildings located throughout the world.
+          -	Created numerous backend windows services used in the core functionality of OneFacility.
+
+
+    - role: Principle Software Engineer
+      time: 2000 - 2006
+      company: Dictaphone
+      details: |
+        Part of a six-person team hired to develop a new internet-based product for Dictaphone called iChart.  iChart is an ASP service for
+        the medical industry that provides medical transcription over the internet. The business grew to $40 million year in reoccurring
+        revenue in just 5 years’ time.
+
+          -	Sole developer of the secure iChart website using Microsoft’s .NET technology (.Net Framework, ASP.NET, ADO.NET since Beta 1) and SQL 2000. Currently the iChart web site provides:
+            -	Management of the iChart business model
+            -	Reporting and monitoring tools
+            -	Customer’s vital statistics: billing, daily statistics, MT productivity, etc.
+            -	Customer relations
+          - One of two lead engineers in the development of the iChart-billing model that will be incorporated into Dictaphone.  This billing system utilizes SQL server’s replication technology that will consolidate data from iChart servers around the US into a data warehouse. This data with then be manipulated by custom business rules and imported into Dictaphone’s billing system.
+          - In charge of finding new ways to improve the efficiency of the iChart team which includes developing monitoring tools and automating mundane tasks.
+            -	Developed custom iChart services
+            -	Provided web-based monitoring tools to centrally monitor iChart
+          -	Help manage, monitor and troubleshoot all servers in our data center.
+
+
+skills:
+    title: Knowledge
+    toolset:
+      - name: .NET
+        level: 90%
+      - name: C#
+        level: 90%
+      - name: Go
+        level: 70%
+      - name: SQL
+        level: 90%
+      - name: Bash
+        level: 60%
+      - name: Powershell
+        level: 60%
+      - name: REST
+        level: 80%
+      - name: ORM
+        level: 90%
+      - name: Javascript
+        level: 55%
+      - name: React
+        level: 50%
+      - name: Event Sourcing
+        level: 80%
+      - name: Open Telemetry
+        level: 60%
+      - name: Scrum
+        level: 75%
+
+skills_frameworks:
+    title: Frameworks
+    toolset:
+      - name: ServiceStack
+        level: 90%
+      - name: ASP.NET MVC
+        level: 80%
+      - name: Masstransit
+        level: 90%
+      - name: NUnit
+        level: 80%
+
+skills_backend:
+    title: Technology
+    toolset:
+      - name: ElasticSearch
+        level: 80%
+      - name: RabbitMQ
+        level: 90%
+      - name: SQL Server
+        level: 90%
+      - name: Redis
+        level: 80%
+      - name: Prometheus
+        level: 70%
+      - name: Grafana
+        level: 75%
+      - name: RavenDB
+        level: 60%
+      - name: SignalR
+        level: 60%
+
+
+skills_platforms:
+    title: Platforms
+    toolset:
+      - name: Docker
+        level: 95%
+      - name: Docker Swarm
+        level: 90%
+      - name: Kubernetes
+        level: 60%
+      - name: Digital Ocean
+        level: 80%
+      - name: Azure
+        level: 70%
+      - name: Linux
+        level: 80%
+      - name: Windows
+        level: 90%
+
+skills_other:
+    title: Source Control &amp; Software
+    toolset:
+      - name: Git
+        level: 90%
+      - name: SVN
+        level: 70%
+      - name: TFS
+        level: 60%
+
+      - name: Jira
+        level: 90%
+      - name: Bitbucket
+        level: 90%
+      - name: Confluence
+        level: 80%
+      - name: Slack
+        level: 80%
+      - name: TeamCity
+        level: 95%
+      - name: Smartsheet
+        level: 70%
+      - name: Portainer
+        level: 90%
+      - name: Sonarqube
+        level: 80%
+      - name: DependencyTrack
+        level: 80%
+
+
+
